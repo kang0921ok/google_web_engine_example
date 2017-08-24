@@ -16,7 +16,7 @@
 4. 언어는 자바 기준
 5. 앱 제공 지역 선택 asia-northeast1
 6. App Engine 빠른시작을 끝까지 진행하면 PROJECT_ID로 된 디렉토리가 생깁니다. (감을 익히세요)
-7. 다시 이제 배포해보겠습니다.
+7. 이제, 해당 프로젝트를 구글 앱엔진에 배포해보겠습니다.
 8. Google Cloude Shell을 오픈 ([$] 뒤 부터는 shell에서 치면 되는 명령어 입니다.)
 9. [$] cd PROJECT_ID (빠른시작을 안하신 분들은 PROJECT_ID로 된 디렉토리를 만듭니다)
 10. [$] git clone https://github.com/kang0921ok/google_web_engine_example.git
