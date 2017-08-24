@@ -6,10 +6,10 @@
 - 2017.8.25 기준
 - 빌링 셋팅 과정이 필요합니다. 진행 하시다가 필요하다고 나오면 하면 됩니다.
 - YOUR_PROJECT_ID는 변수 값으로써 구글 앱엔진 프로젝트에 할당 된 ID값입니다.
-- https://console.cloud.google.com/appengine?project=airmoney-17**** 이런식으로 URL에 ID가 맵핑되어있습니다. 
-- airmoney-17**** 이게 제 ID 입니다.
+- 프로젝트, 앱엔진 생성 후 https://console.cloud.google.com/appengine?project=airmoney-17**** 이런식으로 URL에 PROJECT_ID가 노출됩니다. 
+- airmoney-17**** 이게 제 PROJECT_ID 입니다.
 
-### google app engine console에서 배포하는 방법 (flexible java8 배포)
+## google app engine console에서 배포하는 방법 (flexible java8 배포)
 1. https://console.cloud.google.com/projectcreate 프로젝트 생성
 2. https://console.cloud.google.com/appengine/start 앱엔진 접근
 3. 첫번째 앱 클릭 
