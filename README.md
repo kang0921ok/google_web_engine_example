@@ -17,13 +17,15 @@
 5. 앱 제공 지역 선택 asia-northeast1
 6. App Engine 빠른시작을 끝까지 진행하면 airmoney-17****(본인의 PROJECT_ID)디렉토리가 생깁니다. (감을 익히세요)
 7. 다시 이제 배포해보겠습니다.
-8. Google Cloude Shell을 오픈
-9. cd airmoney-17**** (본인의 PROJECT_ID를 넣어주세요. 없으면 PROJECT_ID로 된 디렉토리 만드세요)
-10. git clone https://github.com/kang0921ok/google_web_engine_example.git
-11. cd google_web_engine_example (clone받은 디렉토리로 진입)
-12. gcloud config set project airmoney-17**** (본인의 PROJECT_ID를 넣어주세요)
-13. mvn appengine:deploy (오래걸립니다.)
-14. YOUR_PROJECT_ID@appspot.com 가 도메인입니다.
-
+8. Google Cloude Shell을 오픈 ([$] 뒤 부터는 shell에서 치면 되는 명령어 입니다.)
+9. [$] cd airmoney-17**** (본인의 PROJECT_ID를 넣어주세요. 없으면 PROJECT_ID로 된 디렉토리 만드세요)
+10. [$] git clone https://github.com/kang0921ok/google_web_engine_example.git
+11. [$] cd google_web_engine_example (clone받은 디렉토리로 진입)
+12. [$] gcloud config set project airmoney-17**** (본인의 PROJECT_ID를 넣어주세요)
+13. [$] mvn appengine:deploy (오래걸립니다.)
+14. 본인의_PROJECT_ID@appspot.com 가 도메인입니다.
+15. airmoney-17****@appspot.com/test (본인의 PROJECT_ID를 넣어주세요) 다음 URL로 테스트가 가능합니다.
 
 구글 공식 가이드 : https://cloud.google.com/appengine/docs/flexible/java/quickstart
+
+p.s PR환영. deploy를 빠르게 하는 방법 고민중..
